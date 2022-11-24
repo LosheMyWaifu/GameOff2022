@@ -422,7 +422,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.07293009
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -430,7 +430,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &864980797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -447,9 +447,10 @@ MonoBehaviour:
   mRigid2D: {fileID: 0}
   anim2D: {fileID: 0}
   pMove: Horizontal
-  pJump: Space
-  pAttack: X
+  pJump: Jump
+  pAttack: x
   moveSpeed: 1
+  jumpForce: 300
 --- !u!1 &1488674951
 GameObject:
   m_ObjectHideFlags: 0
