@@ -531,8 +531,13 @@ Rigidbody2D:
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
+<<<<<<< HEAD
   m_SleepingMode: 0
   m_CollisionDetection: 1
+=======
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+>>>>>>> a7560b5239d30844fc3c23f195aff56622202cb4
   m_Constraints: 4
 --- !u!114 &864980797
 MonoBehaviour:
@@ -554,6 +559,7 @@ MonoBehaviour:
   pMove: Horizontal
   pJump: Jump
   pAttack: x
+<<<<<<< HEAD
   isGround: 0
   moveSpeed: 50
   jumpForce: 300
@@ -685,6 +691,10 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 27.654}
+=======
+  moveSpeed: 1
+  jumpForce: 300
+>>>>>>> a7560b5239d30844fc3c23f195aff56622202cb4
 --- !u!1 &1488674951
 GameObject:
   m_ObjectHideFlags: 0
